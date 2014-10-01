@@ -1,0 +1,15 @@
+<table>
+	<tr>
+		<th>Nome</th>
+		<th>Cognome</th>
+		<th>Sesso</th>
+	</tr>
+	<?php while($row=$result->fetch()) { ?> 
+	<tr>
+		<th><?php echo $row[0]; ?></th>
+		<th><?php echo $row['meaning']; ?></th>
+		<th><?php echo $row['gender']; ?></th>
+	</tr>
+
+	<?php } ?>
+</table>

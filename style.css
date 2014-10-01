@@ -1,0 +1,29 @@
+
+
+table {
+	margin: 30px;
+}
+
+table tr {
+	padding:40px;
+	background-color: yellow;
+}
+
+table tr:first-child {
+	background-color: red;
+	color:white;
+	font-size: 20px;
+	text-transform: uppercase;
+
+}
+
+tr:nth-child(even) {
+	background-color: blue;
+	color:white;
+}
+
+
+
+th {
+	padding:20px;
+}
